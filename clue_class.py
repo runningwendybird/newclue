@@ -24,8 +24,12 @@ class Room(object):
 
     """Players move around the mansion as play progresses"""
 
-    def __init__(self):
-        pass
+    passage = None
+    
+    def __init__(self, name):
+        self.name = name
+
+
 
 class Move(object):
 
@@ -35,4 +39,3 @@ class Move(object):
 
     def __init__(self):
         pass
-        
